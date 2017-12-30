@@ -1,5 +1,5 @@
-import characters_json from '../data/characters.json';
 import { ADD_CHARACTER } from '../actions';
+import { createCharacter } from './helpers';
 
 function heros(state = [], action){
     switch(action.type) {
