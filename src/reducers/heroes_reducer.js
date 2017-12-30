@@ -1,3 +1,4 @@
+import characters_json from '../data/characters.json';
 import { ADD_CHARACTER } from '../actions';
 
 function heros(state = [], action){
