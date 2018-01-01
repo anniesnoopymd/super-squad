@@ -1,0 +1,24 @@
+body{
+  -webkit-background-size: 50%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-image: url('../assets/superman.png');
+  background-color: #0A80F7;
+  background-position: center;
+  opacity: 0.8;
+  height: 100%;
+}
+
+.App{
+  text-align: center;
+  padding: 5%;
+}
+
+.right-button{
+  cursor: pointer;
+  float: right;
+}
+
+.list-item{
+  display: inline-block;
+}
